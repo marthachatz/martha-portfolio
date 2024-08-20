@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Martha Chatz - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/my-avatar.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Achilleas Chaldeakis" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Achilleas Chaldeakis">Martha <br> Chatzikonstantinou</h1>
+
+          <p class="title">Junior Digital Marketeer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:marthachatzikonstantinou@gmail.com" class="contact-link">marthachatzikonstantinou@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+306981462891" class="contact-link">+30 698 146 2891</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2000-05-22">May 22, 2000</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Athens, Greece</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">          
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/chatzikonstantinou/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a digital marketeer from Athens, Greece. I enjoy thoroughly examining a business and providing solutions based on the goals my client has for their business. <br>
+            Through data analysis using Google Analytics 4 and creating reports via Google Data Studio, I achieve an understanding of user behavior as well as the proper 
+            measurement of relevant KPIs. I create PPC campaigns and handle content marketing, from uploading a banner on a professional page to advertising on Google AdWords 
+            (search, display, shopping ads) and Meta (Facebook, Instagram). <br> Additionally, I work on optimizing landing pages and using A/B testing to achieve the best results 
+            for each business.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Social Media Marketing</h4>
+
+                <p class="service-item-text">
+                  I create advertising campaigns on Facebook, Instagram, LinkedIn, and YouTube.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">KPI Measurement and Reports</h4>
+
+                <p class="service-item-text">
+                  I analyze results using Google Analytics 4 and create reports via Looker Studio (Google Data Studio).
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Google AdWords</h4>
+
+                <p class="service-item-text">
+                  I create advertising campaigns on Google Ads. I have strong expertise in managing Google Search, Display (remarketing), and Shopping Ads (including Merchant Center).
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Certificates of Completion
+              </h4>
+
+              <span>2023 - 2024</span>
+
+              <p class="timeline-text">
+                Knowcrunch Advanced Digital Marketing Strategies<br>
+                Knowcrunch Digital marketing fundamentals<br>
+                Udemy Digital advertising masterclass 2024 (Meta, LinkedIn, Google Ads)<br>
+                Udemy Ultimate google Ads training 2024<br>
+                Skillbox Digital marketing strategies (Social media management, email marketing, SEO, SEM)<br>
+                Envelope skills online Google ads seminar<br>
+                Finalist of 16th General Cycle ReGeneration<br>
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Panteion University - GR</h4>
+
+              <span>2018 — 2022</span>
+
+              <p class="timeline-text">
+                Bachelor’s in social anthropology. <br>Specialized knowledge for research and study of
+                contemporary social and cultural phenomena.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Junior digital marketeer & Administration</h4>
+
+              <span>May 2023 — Aug 24</span>
+
+              <p class="timeline-text">
+                <a href="https://mindtheweb.gr/" class="timeline-link">Mind The Web</a>
+                Social Media Management and Marketing Campaigns<br>
+                Managed social media accounts and created engaging posts.<br>
+                Developed and managed advertising campaigns using Meta Business Suite and Google Ads.<br>
+                Crafted compelling copywriting for various marketing materials.<br>
+                Designed graphics using Canva.<br>
+                Generated analytical reports through Google Analytics 4.<br>
+                Creation of reports through Looker Studio (Google Data Studio).<br>
+                Utilized Google Tag Manager for tracking and analytics.<br>
+                Managed LinkedIn Ads and YouTube Ads campaigns.<br>
+                Used Google Merchant Center for counting the results and creation of shopping ads.<br>
+                Executed email marketing strategies.<br>
+                Management of ERP software.<br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Panteion Bachelor Internship</h4>
+
+              <span>Sep 2022 - Dec 2022</span>
+
+              <p class="timeline-text">
+                Internship at Kivotos tou Kosmou.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Booking and Airbnb management</h4>
+
+              <span>June 2022 - Nov 2022</span>
+
+              <p class="timeline-text">
+                Managing the Family accommodation business.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Product promotion in large shops</h4>
+
+              <span>Nov 2019 - Oct 2021</span>
+
+              <p class="timeline-text">
+                Promoting products for Randstad – West SA.
+              </p>
+
+            </li>
+
+          </ol>
+
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Volunteering</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AMElib</h4>
+
+              <span>2023</span>
+
+              <p class="timeline-text">
+                Creation of accessible material for print disabled users.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Pyxida</h4>
+
+              <span>2022 - 2023</span>
+
+              <p class="timeline-text">
+                Learning the Greek language to refugees and immigrants.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Athens Authentic Marathon</h4>
+
+              <span>2018 - 2019</span>
+
+              <p class="timeline-text">
+                Administrative tasks.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Meta</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Google Adwords</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Meta</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Google Adwords</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="meta" data-testimonials-item>
+              <div  class="mine" href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/bubble.jpg" alt="Bubbleworld" loading="lazy" data-testimonials-avatar>
+                </figure>
+
+                <h3 class="project-title" data-testimonials-title>Bubbleworld</h3>
+
+                <div class="testimonials-text" data-testimonials-text>
+                    
+                    <p class="project-category">Eshop</p><br>
+                    <h3 class="h4 modal-title">Overview</h3>
+                    <p class="project-category">Bubbleworld is an eshop that sells toys for ages 0 to 18+ years.</p>
+                    <br>
+                    <div>
+                      <img src="./assets/images/image1.png" class="modal-video">
+                    </div>
+                    <br>
+                    <h3 class="h4 modal-title">Problem statement</h3>
+                    <p>The eshop launched in January 2024 and wanted to advertise through Meta to increase its sales.</p>
+                    <br>
+                    <h3 class="h4 modal-title">Research and Discovery</h3>
+                    <p>Taking into account what my client wanted, I conducted research to identify the persona of the potential buyer.
+                       Then, I designed a funnel to track the buyer’s journey from visiting the eshop to completing a purchase.</p>
+                    <br>
+                    <h3 class="h4 modal-title">Results</h3>
+                    <p>With the persona and funnel in hand, I started creating the Facebook and Instagram pages along with the Meta 
+                      Business Suite. I set up the pixel and catalog and began creating ad campaigns aimed at purchase completions. I
+                       segmented the catalog based on the age group the toys were targeted at for my ads, and I also performed A/B testing to optimize them.</p>
+                    <br>
+                    <h3 class="h4 modal-title">Examples</h3>
+                    <img src="./assets/images/image3.png" class="modal-img"><img src="./assets/images/image2.png" class="modal-img">
+                    <br>
+                    <br>
+                    <h3 class="h4 modal-title">Reflection</h3>
+                    <p>Visits and purchases started to increase, and more and more people are now visiting the eshop to buy toys for their children. 
+                      Managing this ad account helped me understand the philosophy of a professional account that sells toys and continuously optimize 
+                      the campaigns.</p>
+                    
+              </div>
+
+              </div>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="meta" data-testimonials-item>
+              <div  class="mine" href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/proequipment.jpg" alt="Proequipment" loading="lazy" data-testimonials-avatar>
+                </figure>
+
+                <h3 class="project-title" data-testimonials-title>Proequipment</h3>
+
+                <div class="testimonials-text" data-testimonials-text>
+                    
+                    <p class="project-category">Eshop</p><br>
+                    <h3 class="h4 modal-title">Overview</h3>
+                    <p class="project-category">This is an eshop that sells essential products for workshops.</p>
+                    <br>
+                    <div>
+                        <img src="./assets/images/image4.png" class="modal-video">
+                    </div>
+                    <br>
+                    <h3 class="h4 modal-title">Problem statement</h3>
+                    <p>The initial request from my client was to sell specific products from the eshop and occasionally promote a range of products.</p>
+                    <br>
+                    <h3 class="h4 modal-title">Research and Discovery</h3>
+                    <p>What I always do, and which helps me, is to identify the customer persona who would purchase such products and map out the customer
+                       journey. Then, I research the client’s competitors and create innovative and attractive ads for my target audience.</p>
+                    <br>
+                    <div>
+                        <img src="./assets/images/image5.png" class="modal-video">
+                    </div>
+                    <br>
+                    <h3 class="h4 modal-title">Results</h3>
+                    <p>Since my client wanted to advertise his products, I ran a catalog campaign.</p>
+                    <br>
+                    <h3 class="h4 modal-title">Examples</h3>
+                    <img src="./assets/images/image6.png" class="modal-img"><img src="./assets/images/image7.png" class="modal-img">
+                    <br>
+                    <br>
+                    <h3 class="h4 modal-title">Reflection</h3>
+                    <p>Through this experience, I developed targeted ad campaigns focused on specific audiences, 
+                      increasing the effectiveness and efficiency of the campaigns. I learned to create and tailor
+                       content (images, videos, texts) that grabs the audience's attention.</p>
+              </div>
+
+              </div>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="google adwords" data-testimonials-item>
+              <div  class="mine" href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/mydesk.jpg" alt="LAF" loading="lazy" data-testimonials-avatar>
+                </figure>
+
+                <h3 class="project-title" data-testimonials-title>myDesk</h3>
+
+                <div class="testimonials-text" data-testimonials-text>
+                    
+                    <p class="project-category">Website</p><br>
+                    <h3 class="h4 modal-title">Overview</h3>
+                    <p class="project-category">myDesk is a cloud application primarily used by employers for employees to clock in and out digitally when entering and leaving the workplace.</p>
+                    <br>
+                    <div>
+                        <img src="./assets/images/image8.png" class="modal-video">
+                    </div>
+                    <br>
+                    <h3 class="h4 modal-title">Problem statement</h3>
+                    <p>Since it was launched alongside the mandatory use of digital cards, they wanted to quickly and easily acquire subscribers through Google advertising.</p>
+                    <br>
+                    <h3 class="h4 modal-title">Research and Discovery</h3>
+                    <p>I created an advertising account on Google AdWords and conducted research to gather the appropriate keywords that the target audience was most searching for at the 
+                      time. I then crafted relevant ad copy to maximize the chances of a CTA. Additionally, I identified negative keywords to avoid the ads appearing in unrelated searches. 
+                      I created two campaigns, one search and one display (retargeting).</p>
+                    <br>
+                    <div>
+                      <img src="./assets/images/image9.png" class="modal-video"><img src="./assets/images/image10.png" class="modal-video"><img src="./assets/images/image11.png" class="modal-video">
+                    </div>
+                    <h3 class="h4 modal-title">Examples</h3>
+                    <img src="./assets/images/image12.png" class="modal-img"><img src="./assets/images/image13.png" class="modal-img"><img src="./assets/images/image14.png" class="modal-img"><img src="./assets/images/image15.png" class="modal-img"><img src="./assets/images/image16.png" class="modal-img">
+                    <br>
+                    <br>
+                    <br>
+                    <h3 class="h4 modal-title">Reflection</h3>
+                    <p>During the creation and promotion of the campaign for the MyDesk.gr application, I had the opportunity to dive deep into managing and strategizing the advertising of a specialized product. One of the most important lessons I learned from this experience was the importance of understanding the specific target audience, which in this case, were businesses with staff requiring time tracking. During the initial keyword research, I paid particular attention to terms related to workforce management.
+                      Additionally, I discovered the value of simplicity and clarity in the advertising message. I designed ads that emphasized the ease of use and effectiveness of the application, which resonated very positively with the audience.
+                      While analyzing the campaign data, I recognized the need for continuous optimization. I identified keywords that were underperforming and replaced them with more relevant and effective choices.</p>
+              </div>
+
+              </div>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="google adwords" data-testimonials-item>
+              <div  class="mine" href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/etilos.png" alt="Etilos" loading="lazy" data-testimonials-avatar>
+                </figure>
+
+                <h3 class="project-title" data-testimonials-title>Etilos</h3>
+
+                <div class="testimonials-text" data-testimonials-text>
+                    
+                    <p class="project-category">Website</p><br>
+                    <h3 class="h4 modal-title">Overview</h3>
+                    <p class="project-category">Etilos is an ERP accounting software that enables entrepreneurs to issue invoices and receipts.</p>
+                    <br>
+                    <div>
+                      <img src="./assets/images/image17.png" class="modal-video">
+                  </div>
+                    <br>
+                    <h3 class="h4 modal-title">Problem statement</h3>
+                    <p>The main goal was to generate registrations and periodically promote new services offered by Etilos, such as the addition of receipt issuance and the promotion of MyDesk through the Etilos program.</p>
+                    <br>
+                    <h3 class="h4 modal-title">Research and Discovery</h3>
+                    <p>I ran three campaigns primarily focused on registrations and branding. The first campaign targeted a new audience, the second targeted users who had already visited Etilos' landing page, and the third
+                       focused on protecting our brand, as competitors were using the brand name as a keyword. The promotion of MyDesk through Etilos was achieved through email marketing, notifications upon user login,
+                        and promotional material on the landing page.</p>
+                    <br>
+                    <div>
+                      <img src="./assets/images/image18.png" class="modal-video"><img src="./assets/images/image19.png" class="modal-video"><img src="./assets/images/image20.png" class="modal-video"><img src="./assets/images/image21.png" class="modal-video">
+                    </div>
+                    <br>
+                    <h3 class="h4 modal-title">Examples</h3>
+                    <img src="./assets/images/image22.png" class="modal-img"><img src="./assets/images/image23.png" class="modal-img"><img src="./assets/images/image24.png" class="modal-video">
+                    <br>
+                    <h3 class="h4 modal-title">Reflection</h3>
+                    <p>I faced the challenge of attracting a targeted audience with very specific needs and optimizing the campaigns to maximize return on investment (ROI).
+                      Through the process, I learned how crucial it is to select the right keywords, test different bidding strategies, and continually analyze results to adjust the campaign in real-time.</p>
+              </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+        - testimonials modal
+         -->
+
+    <div class="modal-container" data-modal-container>
+
+        <div class="overlay" data-overlay></div>
+
+        <section class="testimonials-modal">
+
+        <button class="modal-close-btn" data-modal-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <div class="modal-content">
+
+            <h4 class="h2 modal-title" data-modal-title>x</h4>
+
+            <div data-modal-text>
+                <p>
+                    x
+                </p>
+            </div>
+
+        </div>
+
+        </section>
+
+    </div>
+
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12580.156437416923!2d23.762410571478437!3d37.97621660096212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a197fa91900db9%3A0x9999f62eab77fc8a!2zzpbPic6zz4HOrM-Gzr_PhQ!5e0!3m2!1sel!2sgr!4v1724084163612!5m2!1sel!2sgr"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/mail-outline.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Email</h4>
+
+                <p class="service-item-text">
+                  <a class="service-item-text" href="mailto:marthachatzikonstantinou@gmail.com"> marthachatzikonstantinou@gmail.com </a>
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/phone-portrait-outline.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Phone</h4>
+
+                <p class="service-item-text">
+                  <a class="service-item-text" href="tel:+306981462891"> +30 698 146 2891 </a>
+                </p>
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
